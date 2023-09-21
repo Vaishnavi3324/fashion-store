@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Text Watermark Example</title>
+
+    <style>
+
+        .image-container {
+
+            position: relative;
+
+            display: inline-block;
+
+        }
+
+       
+
+        .watermark {
+
+            position: absolute;
+
+            top: 0;
+
+            left: 0;
+
+            opacity: 0.5; /* Adjust the opacity as needed */
+
+        }
+
+       
+
+        .watermark-text {
+
+            position: absolute;
+
+            top: 80%;
+
+            bottom:50%;
+
+            left: 50%;
+
+            right: 150;
+
+            transform: translate(-50%, -50%);
+
+            color:wheat; /* Adjust the text color */
+
+            font-size: 30px; /* Adjust the font size */
+
+            font-family: Arial, sans-serif; /* Adjust the font family */
+            align-items: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="image-container">
+
+        <img src="https://elledecor.in/wp-content/uploads/2023/06/V5-12.jpg" height="730" width="1500">
+
+        <img class="watermark" src="img1.jpg" alt="Watermark">
+
+        <span class="watermark-text">WELCOME TO FASHION STORE
+
+           <center> <button onclick="window.location.href = 'P4 (1).html';">login</button></center>
+
+            <center><button onclick="window.location.href = 'p3 (1).html';">signup</button></center>
+
+        </span>
+
+    </div>
+
+</body>
+
+</html>

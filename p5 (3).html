@@ -1,0 +1,310 @@
+<html>
+
+      <head>
+
+            <title>FASHION STORE</title>
+
+            <script>
+
+  function addToCart() {
+
+    var quantity = document.getElementById("quantityDropdown").value;
+
+    // Add your logic here to handle adding the quantity to the cart
+
+    alert("Added " + quantity + " items to the cart.");
+
+  }
+
+</script>
+
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+ 
+
+            <style>
+
+                /* CSS styles for the FASHION shop */
+
+                body {
+
+                    font-family: Arial, sans-serif;
+
+                    margin: 0;
+
+                    padding: 0;
+
+                }
+
+               
+
+                .container {
+
+                    width: 800px;
+
+                    margin: 0 auto;
+
+                    padding: 20px;
+
+                }
+
+                marquee{
+
+                    color: red;
+
+                    font-size: medium;
+
+                    font-style: oblique;
+
+                }
+
+                h1 {
+
+                    text-align: center;
+
+                    color: aquamarine;
+
+                    font-style: italic;
+
+                    font-weight: 200;
+
+                }
+
+               
+
+                .product img {
+
+                    max-width: 100%;
+
+                }
+
+               
+
+                .product h3 {
+
+                    margin-top: 0;
+
+                }
+
+ 
+
+                .container {
+
+      display: grid;
+
+      grid-template-columns: repeat(3, 1fr); /* Specify the number of columns */
+
+      grid-gap: 10px; /* Add some gap between items */
+
+     
+
+      #quantity-input {
+
+                 display: none;
+
+                }
+
+    }
+
+   
+
+               
+
+                .product p {
+
+                    margin-bottom: 0;
+
+                }
+
+            </style>
+
+        </head>
+
+        <nav>
+
+        <body style="background-color: aquamarine;">
+
+            <h2 style="background-color: royalblue; color: brown;font-size: xx-large;"><center>
+
+                FUSION AND FASHION FOR WOMENS 
+
+            </center></h2>
+
+            <p><a href="#Product 1"></a></p>
+
+            <div class="container" id="Product 1">
+
+                <div class="product">
+
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230825/vK75/64e8b3ffafa4cf41f58aa4c3/-473Wx593H-466498880-blue-MODEL.jpg" width="200" height="150">
+
+                    <h3>Flora design dress</h3>
+
+                    <p>Price:19,000</p>
+
+                   <button> <i class="far fa-heart"></i></button> <!-- Wishlist Icon -->
+
+                   <select id="quantityDropdown">
+
+                    <option value="1">1</option>
+
+                    <option value="2">2</option>
+
+                    <option value="3">3</option>
+
+                    <!-- Add more options if needed -->
+
+                  </select>
+
+                 
+
+                  <button onclick="addToCart()"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+
+                </div>
+
+ 
+
+                <div class="product">
+
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230829/8Txd/64ee1c0cddf7791519884a08/-473Wx593H-466512193-white-MODEL.jpg" width="200" height="150">
+
+                    <h3>GIRL WITH PINK</h3>
+
+                    <p>Price:31,190</p>
+
+                    <button> <i class="far fa-heart"></i></button>
+
+                      <!-- Wishlist Icon -->
+
+                      <select id="quantityDropdown">
+
+                        <option value="1">1</option>
+
+                        <option value="2">2</option>
+
+                        
+
+                        <!-- Add more options if needed -->
+
+                      </select>
+
+                     
+
+                      <button onclick="addToCart()"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+
+                </div>
+
+               
+
+               
+
+                <div class="product">
+
+                    <img src="https://img.tatacliq.com/images/i8/113Wx168H/MP000000012279625_113Wx168H_202204301604241.jpeg"alt="Product 1" width="200" height="150">
+                    <h3>ZELL CLOTHINGS</h3>
+
+                    <p>Price:29,000</p>
+
+                    <button>
+
+                    <i class="far fa-heart"></i></button> <!-- Wishlist Icon -->
+
+                    <select id="quantityDropdown">
+
+                        <option value="1">1</option>
+
+                        <option value="2">2</option>
+
+                        <option value="3">3</option>
+
+                        <!-- Add more options if needed -->
+
+                      </select>
+
+                     
+
+                      <button onclick="addToCart()"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+
+                </div>
+
+ 
+
+               
+
+                <div class="product">
+
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230809/H7Qv/64d39670eebac147fcb93196/-473Wx593H-466438074-blue-MODEL.jpg" alt="Product 1" width="200" height="150">
+
+                    <h3>Water mark</h3>
+
+                    <p>Price:28,999</p>
+
+                    <button>
+
+                    <i class="far fa-heart"></i>
+
+                    </button>
+
+                    <select id="quantityDropdown">
+
+                        <option value="1">1</option>
+
+                        <option value="2">2</option>
+
+
+                        <!-- Add more options if needed -->
+
+                      </select>
+
+                     
+
+                      <button onclick="addToCart()"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+
+                </div>
+
+ 
+
+               
+
+                <div class="product">
+
+                    <img src="https://assets.ajio.com/medias/sys_master/root/20230826/nOu8/64e92a50ddf77915197ea07b/-473Wx593H-466499740-wine-MODEL.jpg"Product 1" width="200" height="150">
+                    <h3>brown flower </h3>
+
+                    <p>Price:9999</p>
+
+                    <button>
+
+                    <i class="far fa-heart"></i> <!-- Wishlist Icon -->
+
+                    </button>
+
+                    <select id="quantityDropdown">
+
+                        <option value="1">1</option>
+
+                        <option value="2">2</option>
+
+                    
+
+                        <!-- Add more options if needed -->
+
+                      </select>
+                    
+                     
+
+                    <button onclick="addToCart()"><i class="fas fa-shopping-cart"></i>Add to Cart</button>
+
+              </div>
+
+
+                     <center>
+                      <button onclick="window.location.href = 'p7 (1).html';">checkout</button> 
+                      <button onclick="window.location.href = 'p2 (1).html';">back to home page</button>
+
+                    </center>
+
+                   
+                        
+                      </body>
+                      </html>
